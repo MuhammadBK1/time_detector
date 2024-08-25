@@ -1,5 +1,5 @@
 import time
-currenttime= time.strftime ('%H')
+currenttime= time.strftime ('%H:%M:%S')
 print(currenttime)
 if (currenttime>='05' and currenttime<'12'):
   print("Good Morning,SIR")
